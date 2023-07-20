@@ -2,13 +2,26 @@
   margin: auto;
 }
 img {
-  padding-top: 35px;
-  width: 150px;
+  padding-top: 10px;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.sun {
+  width: 100px;
+  margin-top: 10px;
 }
 #temperature {
   font-size: 80px;
-  margin-top: 60px;
+  margin-top: 0px;
+  margin-left: 20px;
 
+}
+.degree {
+  margin-top: 20px;
+  margin-left: -30px;
+  font-size: 30px;
+ 
 }
 #city {
   padding-top: 50px;
@@ -24,8 +37,8 @@ img {
   font-size: 110px;
   padding-top: 30px;
 }
-.degrees {
-  padding-top: 60px;
+.humidity {
+  padding-top: 35px;
 }
 .days {
   padding-left: 65px;
@@ -38,7 +51,7 @@ img {
   background-color: #0069d9;
   border: none;
   border-radius: 10px;
-  width: 120px;
+  width: 80px;
   margin-top: 20px;
   padding: 8px;
 }
@@ -47,7 +60,7 @@ img {
   background-color: #0069d9;
   border: none;
   border-radius: 10px;
-  width: 120px;
+  width: 80px;
   margin-top: 20px;
   padding: 8px
 }
@@ -56,12 +69,15 @@ img {
 }
 
 hr {
-  width: 900px;
+  width: 760px;
 }
 
 #search-city {
-  width: 720px;
+  width: 570px;
   margin: 5px;
   padding: 6px;
   border-radius: 10px;
+}
+p {
+  text-align: center;
 }
